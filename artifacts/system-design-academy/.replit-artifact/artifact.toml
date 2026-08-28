@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "System Design Academy"
+description = "A premium, scroll-driven learning platform for mastering backend engineering and system design through an 80-lesson roadmap."
+version = "1.0.0"
+id = "artifacts/system-design-academy"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21581
+
+[services.development]
+run = "pnpm --filter @workspace/system-design-academy run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/system-design-academy", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/system-design-academy/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21581"
+BASE_PATH = "/"

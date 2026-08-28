@@ -1,0 +1,152 @@
+🚀 System Design Roadmap (Beginner → Pro)
+80 Lessons to Master Backend & System Design
+This roadmap is designed so that every topic builds naturally on the previous one. By the end, learners should be able to confidently tackle SDE-2/Senior Backend interviews and design production-scale systems.
+ 
+📘 PART I — Foundations (01–08)
+Understand what System Design is and the principles behind it.
+#	Topic
+01	What is System Design?
+02	HLD vs LLD
+03	Functional vs Non-Functional Requirements
+04	Estimating Scale (Users, QPS, Storage, Bandwidth)
+05	Scalability (Vertical vs Horizontal)
+06	Availability & Reliability
+07	Consistency Models
+08	CAP Theorem
+ 
+🌐 PART II — Core Building Blocks (09–24)
+Learn the fundamental components used to build scalable systems.
+#	Topic
+09	Networking Fundamentals (DNS, TCP/IP, HTTP, HTTPS)
+10	REST APIs & API Design
+11	Load Balancers
+12	Reverse Proxy
+13	API Gateway
+14	Caching Fundamentals
+15	Redis Deep Dive
+16	Databases (SQL vs NoSQL)
+17	Database Indexing
+18	Replication
+19	Sharding & Partitioning
+20	Object Storage (Amazon S3)
+21	CDN (Content Delivery Network)
+22	Message Queues
+23	Kafka Deep Dive
+24	Service Discovery
+ 
+⚡ PART III — Distributed Systems (25–40)
+Learn how systems work reliably across multiple servers.
+#	Topic
+25	Consistent Hashing
+26	Distributed Locks
+27	Leader Election
+28	Consensus Algorithms (Raft & Paxos Overview)
+29	Idempotency
+30	Rate Limiting
+31	Retries & Exponential Backoff
+32	Circuit Breakers
+33	Dead Letter Queues
+34	Distributed Transactions
+35	Two-Phase Commit (2PC)
+36	Three-Phase Commit (3PC)
+37	Saga Pattern
+38	Outbox Pattern
+39	Change Data Capture (CDC)
+40	Eventual Consistency in Practice
+ 
+🏗 PART IV — Architecture Patterns (41–52)
+Learn how large-scale applications are structured.
+#	Topic
+41	Monolithic Architecture
+42	Microservices Architecture
+43	Event-Driven Architecture
+44	Serverless Architecture
+45	CQRS
+46	Event Sourcing
+47	Batch Processing
+48	Stream Processing
+49	Workflow Orchestration
+50	Background Jobs & Schedulers
+51	WebSockets, SSE & Long Polling
+52	Search Systems (Elasticsearch Basics)
+ 
+🚀 PART V — Production Systems (53–62)
+Learn what makes systems production-ready.
+#	Topic
+53	Authentication & Authorization
+54	Security Best Practices
+55	Observability (Logs, Metrics & Traces)
+56	Monitoring & Alerting
+57	Disaster Recovery
+58	Multi-Region Systems
+59	High Availability Strategies
+60	Cost Optimization
+61	Deployment Strategies (Blue-Green & Canary)
+62	Kubernetes & Auto Scaling (Overview)
+ 
+🤖 PART VI — AI System Design (63–70)
+Design modern AI-powered applications.
+#	Topic
+63	Designing LLM Applications
+64	Prompt Engineering for AI Systems
+65	Retrieval-Augmented Generation (RAG)
+66	Vector Databases
+67	AI Agents
+68	Model Context Protocol (MCP)
+69	AI Memory Systems
+70	AI Evaluation & Guardrails
+ 
+
+
+🎯 PART VII — System Design Case Studies (71–80)
+Apply everything you've learned by designing real-world systems.
+#	Topic
+71	Design a URL Shortener
+72	Design a Rate Limiter
+73	Design a Notification Service
+74	Design a Chat Application (WhatsApp)
+75	Design a Social Media Feed (Instagram/X)
+76	Design a Video Streaming Platform (YouTube/Netflix)
+77	Design a Ride-Sharing System (Uber)
+78	Design Google Drive / Dropbox
+79	Design BookMyShow
+80	Design a Payment Gateway / UPI System
+ 
+📈 Learning Progression
+FOUNDATIONS
+      ↓
+CORE BUILDING BLOCKS
+      ↓
+DISTRIBUTED SYSTEMS
+      ↓
+ARCHITECTURE PATTERNS
+      ↓
+PRODUCTION SYSTEMS
+      ↓
+AI SYSTEM DESIGN
+      ↓
+REAL-WORLD CASE STUDIES
+Optional Bonus Series (After Lesson 80)
+These are excellent follow-up series but don't need to be part of the core roadmap:
+•	Low-Level Design (LLD) 
+o	SOLID Principles 
+o	Design Patterns 
+o	Parking Lot 
+o	Splitwise 
+o	BookMyShow LLD 
+o	Elevator System 
+o	ATM 
+o	Library Management 
+o	Chess 
+o	Cricbuzz 
+•	Production Engineering Deep Dives 
+o	Docker 
+o	Kubernetes (Advanced) 
+o	Terraform 
+o	CI/CD Pipelines 
+o	Prometheus & Grafana 
+o	OpenTelemetry 
+o	Service Mesh (Istio) 
+o	Envoy Proxy 
+This separation keeps the main roadmap focused on system design, while allowing LLD and DevOps to become their own dedicated learning tracks.
+
